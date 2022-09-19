@@ -7,10 +7,22 @@
 
 // could use similar code to the ticket counter
 
+extension UIColor
+{
+    var isDarkColor: Bool {
+        var r, g, b, a: CGFloat
+        (r, g, b, a) = (0, 0, 0, 0)
+        self.getRed(&r, green: &g, blue: &b, alpha: &a)
+        let lum = 0.2126 * r + 0.7152 * g + 0.0722 * b
+        return  lum < 0.50
+    }
+}
+//makes it so the code detects the color values of the background and changes the text color depending on how light or dark it is.
+
 import UIKit
 
 class ViewController: UIViewController {
-
+    
 var numberOnScreen: Double = 0;
 
 var previousNumber: Double = 0;
@@ -40,13 +52,13 @@ numberOnScreen = Double(label.text!)!
 
 }
 
-@IBOutlet weak var label: UILabel!
-
+    @IBOutlet weak var label: UILabel!
+    
 @IBAction func buttons(_ sender: UIButton) {
 
 if label.text != "" && sender.tag != 11 && sender.tag != 16{
 
-    previousNumber = Double(label.text!) ?? 0.0
+    previousNumber = Double(label.text!) ?? 0.0 // gives a default value to prevent a crash
 
 if sender.tag == 12 { //Divide
 
@@ -121,18 +133,19 @@ operation = 0;
 }
 
 override func viewDidLoad() {
-
-super.viewDidLoad()
-
-// Do any additional setup after loading the view, typically from a nib.
-
+    
+    
+    super.viewDidLoad()
+        
+   
+    label.textColor = view.backgroundColor?.isDarkColor == true ? .white : .black //other code at very top. makes it so the code detects the color values of the background and changes the text color depending on how light or dark it is.
 }
 
 override func didReceiveMemoryWarning() {
 
 super.didReceiveMemoryWarning()
 
-// Dispose of any resources that can be recreated.
+
 
 }
 
