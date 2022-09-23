@@ -51,11 +51,19 @@ numberOnScreen = Double(label.text!)!
 }
 
 }
+    
 
+    @IBOutlet var tintButtons: [UIButton]!
+    
+    @IBOutlet weak var clearButton: UIButton!
+    
+    
     @IBOutlet weak var label: UILabel!
     
 @IBAction func buttons(_ sender: UIButton) {
-
+  
+   
+    
 if label.text != "" && sender.tag != 11 && sender.tag != 16{
 
     previousNumber = Double(label.text!) ?? 0.0 // gives a default value to prevent a crash
@@ -136,9 +144,14 @@ override func viewDidLoad() {
     
     
     super.viewDidLoad()
-        
-   
-    label.textColor = view.backgroundColor?.isDarkColor == true ? .white : .black //other code at very top. makes it so the code detects the color values of the background and changes the text color depending on how light or dark it is.
+
+    
+    
+    label.text = ""
+
+label.textColor = view.backgroundColor?.isDarkColor == true ? .white : .black //other code at very top. makes it so the code detects the color values of the background and changes the text color depending on how light or dark it is.
+    
+    
 }
 
 override func didReceiveMemoryWarning() {

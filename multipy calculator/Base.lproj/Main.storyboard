@@ -22,7 +22,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="0">
                                             <attributes>
@@ -42,7 +42,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" title="" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" title="" subtitle="">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -50,10 +50,10 @@
                             <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeF-ra-Njf">
                                 <rect key="frame" x="311" y="773" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="=">
                                             <attributes>
@@ -70,10 +70,10 @@
                             <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0bj-FN-QRO">
                                 <rect key="frame" x="311" y="676" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="+">
                                             <attributes>
@@ -93,7 +93,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="3">
                                             <attributes>
@@ -113,7 +113,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="2">
                                             <attributes>
@@ -133,7 +133,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="1">
                                             <attributes>
@@ -153,7 +153,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="4">
                                             <attributes>
@@ -173,7 +173,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="5">
                                             <attributes>
@@ -193,7 +193,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="6">
                                             <attributes>
@@ -210,10 +210,10 @@
                             <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Htm-yg-pIZ">
                                 <rect key="frame" x="311" y="579" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="-">
                                             <attributes>
@@ -230,10 +230,10 @@
                             <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5T-2j-NQd">
                                 <rect key="frame" x="311" y="482" width="89" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemGray2Color"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="X">
                                             <attributes>
@@ -253,7 +253,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="9">
                                             <attributes>
@@ -273,7 +273,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="8">
                                             <attributes>
@@ -293,7 +293,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="7">
                                             <attributes>
@@ -313,7 +313,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="C">
                                             <attributes>
@@ -333,7 +333,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" title="" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" title="" subtitle="">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -344,7 +344,7 @@
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemGray2Color"/>
-                                <buttonConfiguration key="configuration" style="filled" title="" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" title="" subtitle="">
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -355,7 +355,7 @@
                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                 <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
                                 <color key="tintColor" systemColor="systemOrangeColor"/>
-                                <buttonConfiguration key="configuration" style="filled" subtitle="">
+                                <buttonConfiguration key="configuration" style="plain" subtitle="">
                                     <attributedString key="attributedTitle">
                                         <fragment content="/">
                                             <attributes>
@@ -388,7 +388,13 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
+                        <outlet property="clearButton" destination="5KQ-0d-S7r" id="FTd-Xz-ixk"/>
                         <outlet property="label" destination="AFN-tO-0al" id="tih-j0-dzY"/>
+                        <outletCollection property="tintButtons" destination="OaO-X4-VTJ" collectionClass="NSMutableArray" id="R8d-w6-pMb"/>
+                        <outletCollection property="tintButtons" destination="z5T-2j-NQd" collectionClass="NSMutableArray" id="leR-Q1-z2r"/>
+                        <outletCollection property="tintButtons" destination="Htm-yg-pIZ" collectionClass="NSMutableArray" id="bbX-5V-HKb"/>
+                        <outletCollection property="tintButtons" destination="0bj-FN-QRO" collectionClass="NSMutableArray" id="VH8-eA-nXt"/>
+                        <outletCollection property="tintButtons" destination="CeF-ra-Njf" collectionClass="NSMutableArray" id="33B-Ft-li9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
